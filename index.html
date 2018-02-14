@@ -1,44 +1,224 @@
+
 <!doctype html>
 <html class="no-js" lang="en">
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Jules Thivent's Portfolio">
-  <title>Jules Thivent</title>
-  <link rel="stylesheet" href="assets/css/app.css">
-</head>
+  <!--
 
-<body>
+      ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+      ░░░░░░░░░░▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄░░░░░░░░░
+      ░░░░░░░░▄▀░░░░░░░░░░░░▄░░░░░░░▀▄░░░░░░░
+      ░░░░░░░░█░░▄░░░░▄░░░░░░░░░░░░░░█░░░░░░░
+      ░░░░░░░░█░░░░░░░░░░░░▄█▄▄░░▄░░░█░▄▄▄░░░
+      ░▄▄▄▄▄░░█░░░░░░▀░░░░▀█░░▀▄░░░░░█▀▀░██░░
+      ░██▄▀██▄█░░░▄░░░░░░░██░░░░▀▀▀▀▀░░░░██░░
+      ░░▀██▄▀██░░░░░░░░▀░██▀░░░░░░░░░░░░░▀██░
+      ░░░░▀████░▀░░░░▄░░░██░░░▄█░░░░▄░▄█░░██░
+      ░░░░░░░▀█░░░░▄░░░░░██░░░░▄░░░▄░░▄░░░██░
+      ░░░░░░░▄█▄░░░░░░░░░░░▀▄░░▀▀▀▀▀▀▀▀░░▄▀░░
+      ░░░░░░█▀▀█████████▀▀▀▀████████████▀░░░░
+      ░░░░░░████▀░░███▀░░░░░░▀███░░▀██▀░░░░░░
+      ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+      _________              .__
+      \_   ___ \ __ _________|__| ____  __ __  ______
+      /    \  \/|  |  \_  __ \  |/  _ \|  |  \/  ___/
+      \     \___|  |  /|  | \/  (  <_> )  |  /\___ \
+       \______  /____/ |__|  |__|\____/|____//____  >
+              \/                                  \/
+            ___.                  __
+      _____ \_ |__   ____  __ ___/  |_
+      \__  \ | __ \ /  _ \|  |  \   __\
+       / __ \| \_\ (  <_> )  |  /|  |
+      (____  /___  /\____/|____/ |__|
+           \/    \/
+        __  .__
+      _/  |_|  |__   ____
+      \   __\  |  \_/ __ \
+       |  | |   Y  \  ___/
+       |__| |___|  /\___  >
+                 \/     \/
 
-  <main>
-    <div class='me'>
-      <div class='head'>
-        <figure id="eyes"></figure>
-        <figure id="face"></figure>
-      </div>
-      <figure id='body'></figure>
-    </div>
-    <hgroup>
-      <h1>Jules will be back soon.</h1>
-      <h2>He is working on a new portfolio.</h2>
-    </hgroup>
-    <section id="backtothefuture">
-      <div id="onceuponatime">
-        <p>Can't wait until he is finished?</p>
-        <a class='button' target='_blank' href='https://julesthivent.com/portfolio1'>See his previous portfolio</a>
-      </div>
-      <div id="countdown">
-        <p>Jules' new portfolio will be available here in <span class='clock'></span></p>
-      </div>
-  
+        __________  __ _________   ____  ____
+       /  ___/  _ \|  |  \_  __ \_/ ___\/ __ \
+       \___ (  <_> )  |  /|  | \/\  \__\  ___/
+      /____  >____/|____/ |__|    \___  >___  >
+           \/                         \/    \/
+                       .___       _________
+        ____  ____   __| _/____   \_____   \
+      _/ ___\/  _ \ / __ |/ __ \     /   __/
+      \  \__(  <_> ) /_/ \  ___/    |   |
+       \___  >____/\____ |\___  >   |___|
+           \/           \/    \/    <___>
+
+      Go to https://github.com/jyulzz/portfolio/ to browse the full git repository for this portfolio ;)
+
+  -->
+
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <title>Jules Thivent</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+  </head>
+  <body class='index'>
+    
+    <header><nav id='navigation'>
+      <ul>
+        <li class='logo'>
+          <div class='me'>
+            <div class='head'>
+              <figure class="eyes"></figure>
+              <figure class="head"></figure>
+            </div>
+            <figure class='body'></figure>
+          </div>
+        </li>
+        <li class='tab home'><a href=''><span>Home</span></a></li>
+      </ul>
+      <ul class='sections'>
+        <li class='tab'><a href='#work'><span>Work</span></a></li>
+        <li class='tab'><a href='#profile'><span>Profile</span></a></li>
+        <li class='tab'><a href='#about'><span>About</span></a></li>
+      </ul>
+    </nav>
+    </header>
+    <main>
+      <section id='hello'>
+      <figure>
+        <div class='me'>
+          <figure class='halo'></figure>
+          <div class='head'>
+            <figure class="eyes"></figure>
+            <figure class="head"></figure>
+          </div>
+          <figure class='body'></figure>
+        </div>
+      </figure>
+      <h1>Hi, I’m Jules, a digital designer focused on creating beautiful user experiences to solve real-world issues since 2006.</h1>
     </section>
-  
-  </main>
-  
-
-  <script src="assets/js/app.js"></script>
-</body>
-
+     <section id='work' data-magellan-target='work'>
+      <h2>Work</h2> 
+      <ul>
+        
+        <li class='case-preview sunwebdesignsystem'>
+          <div class='content'>
+            <figure>
+              <a href='work/sunwebdesignsystem/case.html'>
+                <div class='overlay'><span>View this case →</span></div>
+              </a>
+            </figure>
+            <div class='caption'>
+              <div class='title'>Creation of a Design System</div>
+              <div class='organization'>Sunweb Group</div>
+              <div class='date'>2018</div>
+              <div class='description'>Strenghtening visual consistency for 14 brands across 10 countries by empowering teams with a Design System</div>
+              <div class='view'><a href='work/sunwebdesignsystem/case.html' class='call-to-action standout'>View this case  →</a> </div>
+            </div>
+          </div>
+        </li>
+        
+        <li class='case-preview ovchipkaart'>
+          <div class='content'>
+            <figure>
+              <a href='work/ovchipkaart/case.html'>
+                <div class='overlay'><span>View this case →</span></div>
+              </a>
+            </figure>
+            <div class='caption'>
+              <div class='title'>Redesign of the OV Chipkaart Mobile Application</div>
+              <div class='organization'>OV Chipkaart</div>
+              <div class='date'>2018</div>
+              <div class='description'>Re-building Netherland’s national transport card system mobile application.</div>
+              <div class='view'><a href='work/ovchipkaart/case.html' class='call-to-action standout'>View this case  →</a> </div>
+            </div>
+          </div>
+        </li>
+        
+        <li class='case-preview gogo'>
+          <div class='content'>
+            <figure>
+              <a href='work/gogo/case.html'>
+                <div class='overlay'><span>View this case →</span></div>
+              </a>
+            </figure>
+            <div class='caption'>
+              <div class='title'>Extension of User Profile Picture Flows</div>
+              <div class='organization'>GOGO Tours</div>
+              <div class='date'>2017</div>
+              <div class='description'>Letting travelers share more about themselves by adding several pictures on their profiles.</div>
+              <div class='view'><a href='work/gogo/case.html' class='call-to-action standout'>View this case  →</a> </div>
+            </div>
+          </div>
+        </li>
+        
+        <li class='case-preview eliza'>
+          <div class='content'>
+            <figure>
+              <a href='work/eliza/case.html'>
+                <div class='overlay'><span>View this case →</span></div>
+              </a>
+            </figure>
+            <div class='caption'>
+              <div class='title'>Agile Design of a Mobile Application</div>
+              <div class='organization'>Eliza was here</div>
+              <div class='date'>2017</div>
+              <div class='description'>Introducing a new mobile application for an off-the-beaten path travelling brand</div>
+              <div class='view'><a href='work/eliza/case.html' class='call-to-action standout'>View this case  →</a> </div>
+            </div>
+          </div>
+        </li>
+        
+      </ul>
+    </section>
+     <section id='profile' data-magellan-target='profile'>
+      <h2>Profile</h2>
+      <div class='content'>
+        <section class='sub'>
+          <div class='introduction'>
+            <p>I’m a people-lover, a communicator, an unabashed optimist and a curious experimenter.</p>
+            <p>As a designer, I believe that we deserve beautiful and efficient solutions in every aspect of our lives.</p>
+            <p>Through challenges, I strive to refine core skills in the field of design and user experience, while also acquiring peripheral capacities that allow me to work closely with other specialists in IT, marketing, communication, social media and more.</p>
+            <p>Having run a startup has taught me self-reliance, the importance of good collaboration and the power of trust.</p>
+            <p> On my own time, I love to travel and get lost in translation, cook for friends and burn the calories off with a long cycling session.</p>
+            </p>
+          </div>
+        </section>
+        <section class='sub'>
+          <h3>Contact</h3>
+          <ul class='contacts'>
+            <li><a href='assets/pdf/JulesThiventUXDesignerResume.pdf' target='_blank' class='important'>Download my résumé/CV (PDF)</a></li>
+            <li><a href='https://www.linkedin.com/in/julesthivent/' target='_blank' class='important'>See my LinkedIn profile</a></li>
+            <li><a href='mailto:jules@70k1.com' target='_blank' class='important'>Email me at jules@70k1.com</a></li>
+          </ul>
+        </section>
+      </div>
+    </section>
+     <section id='about' data-magellan-target='about'>
+      <h2>About</h2>
+      <div class='content'>
+        <p>I design this portfolio with
+          <span class='sketch'><a href='https://www.sketchapp.com/' target='_blank'>Sketch</a></span> &
+          <span class='abstract'><a href='https://www.goabstract.com/' target='_blank'>Abstract</a></span>, then hand-code it with
+          <span class='love'><a>love</a></span> using
+          <span class='atom'><a href='https://atom.io/' target='_blank'>Atom</a></span>,
+          <span class='nodejs'><a href='https://nodejs.org/' target='_blank'>Node.js</a></span> &
+          <span class='npm'><a href='https://www.npmjs.com/' target='_blank'>NPM</a></span>,
+          <span class='gulp'><a href='https://gulpjs.com' target='_blank'>Gulp</a></span>, HTML5, JS/ES6,
+          <span class='sass'><a href='sass-lang.com' target='_blank'>SASS</a></span>,
+          <span class='zf'><a href='https://foundation.zurb.com/' target='_blank'>ZURB Foundation</a></span>,
+          <span class='jquery'><a href='https://jquery.com/' target='_blank'>jQuery</a> and</span>
+          <span class='motionui'><a href='https://zurb.com/playground/motion-ui' target='_blank'>Motion UI.</a></span></p>
+        <p>It is hosted on <span class='github'><a href='https://github.com' target='_blank'>GitHub</a></span> and protected by <span class='cloudflare'><a href='https://www.cloudflare.com/'  target='_blank'>Cloudflare</a></span>.</p>
+        <p>You can see the <a href='https://github.com/jyulzz/portfolio/' target='_blank' class='important'>full source code in this Github repository.</a></p>
+        <p>Want to see how this page's layout is built? <a class='link call-to-action standout' id='xray-mode'>Turn X-Ray Mode On ○</a></p>
+        <p>And don't miss out on the <a href='/doesnotexist' target='_blank' class='important'>404 page</a> ;)</p>
+      </div>
+    </section>
+    
+    </main>
+    
+    <footer></footer>
+    <script src="assets/js/app.js"></script>
+  </body>
 </html>

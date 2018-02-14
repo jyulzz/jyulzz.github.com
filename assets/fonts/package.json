@@ -1,0 +1,52 @@
+{
+  "_from": "inter-ui",
+  "_id": "inter-ui@2.4.0",
+  "_inBundle": false,
+  "_integrity": "sha1-DC7+fuOd+YtcwE3nmA4vjoFoFYc=",
+  "_location": "/inter-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "inter-ui",
+    "name": "inter-ui",
+    "escapedName": "inter-ui",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/inter-ui/-/inter-ui-2.4.0.tgz",
+  "_shasum": "0c2efe7ee39df98b5cc04de7980e2f8e81681587",
+  "_spec": "inter-ui",
+  "_where": "/Users/jules/Documents/Projects/portfolio3",
+  "author": {
+    "name": "Rasmus Andersson",
+    "url": "https://rsms.me"
+  },
+  "bugs": {
+    "url": "https://github.com/philipbelesky/inter-ui/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Font files for the Inter UI font family.",
+  "homepage": "https://github.com/philipbelesky/inter-ui#readme",
+  "keywords": [
+    "inter-ui",
+    "typeface",
+    "font",
+    "font family"
+  ],
+  "license": "OFL-1.1",
+  "main": "inter-ui.css",
+  "name": "inter-ui",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/philipbelesky/inter-ui.git"
+  },
+  "version": "2.4.0"
+}
