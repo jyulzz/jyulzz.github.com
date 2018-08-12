@@ -1,48 +1,25 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "inter-ui@^2.4.0",
-        "scope": null,
-        "escapedName": "inter-ui",
-        "name": "inter-ui",
-        "rawSpec": "^2.4.0",
-        "spec": ">=2.4.0 <3.0.0",
-        "type": "range"
-      },
-      "/Users/jules/Documents/Workspace/Projects/portfolio"
-    ]
-  ],
-  "_from": "inter-ui@>=2.4.0 <3.0.0",
+  "_from": "inter-ui@^2.4.0",
   "_id": "inter-ui@2.5.1",
-  "_inCache": true,
+  "_inBundle": false,
+  "_integrity": "sha512-jGBt0qpKsABtlkdciTrR4u+WecTWBpns3KAZu2q5LlsM5O466MZnsQLHZBKP9KEXOsNY/nwxICxQL/4Pga7Ayg==",
   "_location": "/inter-ui",
-  "_nodeVersion": "8.9.4",
-  "_npmOperationalInternal": {
-    "host": "s3://npm-registry-packages",
-    "tmp": "tmp/inter-ui_2.5.1_1519338394817_0.2478862179178365"
-  },
-  "_npmUser": {
-    "name": "philipbelesky",
-    "email": "contact@philipbelesky.com"
-  },
-  "_npmVersion": "5.6.0",
   "_phantomChildren": {},
   "_requested": {
+    "type": "range",
+    "registry": true,
     "raw": "inter-ui@^2.4.0",
-    "scope": null,
-    "escapedName": "inter-ui",
     "name": "inter-ui",
+    "escapedName": "inter-ui",
     "rawSpec": "^2.4.0",
-    "spec": ">=2.4.0 <3.0.0",
-    "type": "range"
+    "saveSpec": null,
+    "fetchSpec": "^2.4.0"
   },
   "_requiredBy": [
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/inter-ui/-/inter-ui-2.5.1.tgz",
   "_shasum": "1ed9b84eac5ced06cd6734fad8c6c366ef22cd8a",
-  "_shrinkwrap": null,
   "_spec": "inter-ui@^2.4.0",
   "_where": "/Users/jules/Documents/Workspace/Projects/portfolio",
   "author": {
@@ -52,18 +29,9 @@
   "bugs": {
     "url": "https://github.com/philipbelesky/inter-ui/issues"
   },
-  "dependencies": {},
+  "bundleDependencies": false,
+  "deprecated": false,
   "description": "Font files for the Inter UI font family.",
-  "devDependencies": {},
-  "directories": {},
-  "dist": {
-    "integrity": "sha512-jGBt0qpKsABtlkdciTrR4u+WecTWBpns3KAZu2q5LlsM5O466MZnsQLHZBKP9KEXOsNY/nwxICxQL/4Pga7Ayg==",
-    "shasum": "1ed9b84eac5ced06cd6734fad8c6c366ef22cd8a",
-    "tarball": "https://registry.npmjs.org/inter-ui/-/inter-ui-2.5.1.tgz",
-    "fileCount": 38,
-    "unpackedSize": 6140988
-  },
-  "gitHead": "05ef1c7f643819cc2ceb359ad694d4da64df7662",
   "homepage": "https://github.com/philipbelesky/inter-ui#readme",
   "keywords": [
     "inter-ui",
@@ -73,16 +41,8 @@
   ],
   "license": "OFL-1.1",
   "main": "inter-ui.css",
-  "maintainers": [
-    {
-      "name": "philipbelesky",
-      "email": "contact@philipbelesky.com"
-    }
-  ],
   "name": "inter-ui",
-  "optionalDependencies": {},
   "private": false,
-  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/philipbelesky/inter-ui.git"
