@@ -10,6 +10,7 @@
         </linearGradient>
     </defs>
     <g id="thumbnail" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="200" cy="200" r="110"></circle>
         <g id="Group-2" transform="translate(126.000000, 127.000000)">
             <g id="me_body" transform="translate(21.000000, 57.000000)" fill-rule="nonzero">
                 <g id="body">
