@@ -1,32 +1,27 @@
 {
-  "_args": [
-    [
-      "inter-ui@2.5.1",
-      "/Users/jules/github/portfolio"
-    ]
-  ],
-  "_from": "inter-ui@2.5.1",
+  "_from": "inter-ui@^2.4.0",
   "_id": "inter-ui@2.5.1",
   "_inBundle": false,
   "_integrity": "sha512-jGBt0qpKsABtlkdciTrR4u+WecTWBpns3KAZu2q5LlsM5O466MZnsQLHZBKP9KEXOsNY/nwxICxQL/4Pga7Ayg==",
   "_location": "/inter-ui",
   "_phantomChildren": {},
   "_requested": {
-    "type": "version",
+    "type": "range",
     "registry": true,
-    "raw": "inter-ui@2.5.1",
+    "raw": "inter-ui@^2.4.0",
     "name": "inter-ui",
     "escapedName": "inter-ui",
-    "rawSpec": "2.5.1",
+    "rawSpec": "^2.4.0",
     "saveSpec": null,
-    "fetchSpec": "2.5.1"
+    "fetchSpec": "^2.4.0"
   },
   "_requiredBy": [
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/inter-ui/-/inter-ui-2.5.1.tgz",
-  "_spec": "2.5.1",
-  "_where": "/Users/jules/github/portfolio",
+  "_shasum": "1ed9b84eac5ced06cd6734fad8c6c366ef22cd8a",
+  "_spec": "inter-ui@^2.4.0",
+  "_where": "/Users/jules/Documents/Workspace/Projects/portfolio",
   "author": {
     "name": "Rasmus Andersson",
     "url": "https://rsms.me"
@@ -34,6 +29,8 @@
   "bugs": {
     "url": "https://github.com/philipbelesky/inter-ui/issues"
   },
+  "bundleDependencies": false,
+  "deprecated": false,
   "description": "Font files for the Inter UI font family.",
   "homepage": "https://github.com/philipbelesky/inter-ui#readme",
   "keywords": [
