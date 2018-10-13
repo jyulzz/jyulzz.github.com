@@ -1,31 +1,27 @@
 {
-  "_args": [
-    [
-      "inter-ui@2.5.1",
-      "/Users/jules/github/portfolio"
-    ]
-  ],
-  "_from": "inter-ui@2.5.1",
-  "_id": "inter-ui@2.5.1",
+  "_from": "inter-ui@3.0.0",
+  "_id": "inter-ui@3.0.0",
   "_inBundle": false,
-  "_integrity": "sha512-jGBt0qpKsABtlkdciTrR4u+WecTWBpns3KAZu2q5LlsM5O466MZnsQLHZBKP9KEXOsNY/nwxICxQL/4Pga7Ayg==",
+  "_integrity": "sha512-8mmzPPU2GqexJ/Pi/F90pDBfNZU6UysigjA+2jHM/X2lVNm/2/oQDgJ3NlH1GHNSmj8XMaDFEr/l/BoFUNFVWw==",
   "_location": "/inter-ui",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "inter-ui@2.5.1",
+    "raw": "inter-ui@3.0.0",
     "name": "inter-ui",
     "escapedName": "inter-ui",
-    "rawSpec": "2.5.1",
+    "rawSpec": "3.0.0",
     "saveSpec": null,
-    "fetchSpec": "2.5.1"
+    "fetchSpec": "3.0.0"
   },
   "_requiredBy": [
+    "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/inter-ui/-/inter-ui-2.5.1.tgz",
-  "_spec": "2.5.1",
+  "_resolved": "https://registry.npmjs.org/inter-ui/-/inter-ui-3.0.0.tgz",
+  "_shasum": "2941356442fec9b7947a3d9d38fdb89eb0d60d5f",
+  "_spec": "inter-ui@3.0.0",
   "_where": "/Users/jules/github/portfolio",
   "author": {
     "name": "Rasmus Andersson",
@@ -34,6 +30,8 @@
   "bugs": {
     "url": "https://github.com/philipbelesky/inter-ui/issues"
   },
+  "bundleDependencies": false,
+  "deprecated": false,
   "description": "Font files for the Inter UI font family.",
   "homepage": "https://github.com/philipbelesky/inter-ui#readme",
   "keywords": [
@@ -50,5 +48,5 @@
     "type": "git",
     "url": "git+ssh://git@github.com/philipbelesky/inter-ui.git"
   },
-  "version": "2.5.1"
+  "version": "3.0.0"
 }
